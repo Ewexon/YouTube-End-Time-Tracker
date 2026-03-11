@@ -2,7 +2,7 @@
 
 A lightweight and efficient tool for YouTube that displays the exact time a video will finish (real-world clock time), taking into account your current progress and playback speed.
 
-![YouTube End Time Tracker Preview](https://via.placeholder.com/800x400?text=YouTube+End+Time+Tracker+Preview)
+![YouTube End Time Tracker Preview](https://kappa.lol/J8RN70)
 
 ## ✨ Features
 - **Real-World Clock:** Shows exactly what time you will finish the video on your local clock.
