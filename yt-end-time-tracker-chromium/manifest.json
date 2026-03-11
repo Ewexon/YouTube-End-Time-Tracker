@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube End Time Tracker Pro",
+  "version": "3.4",
+  "description": "Shows when the video will end directly in the YouTube player.",
+  "permissions": ["storage"],
+  "host_permissions": ["*://*.youtube.com/*"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
