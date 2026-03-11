@@ -27,12 +27,22 @@ Since this is a custom extension, you can install it manually using "Developer M
 ### Option 2: Safari (macOS / iOS)
 Safari requires a "Userscript" manager to run custom scripts.
 
+### **Method A: Fast Setup (Recommended)**
 1. **Install Userscripts:** Download the free **[Userscripts](https://apps.apple.com/app/userscripts/id1463298887)** extension from the Mac App Store.
 2. **Enable Extension:** Go to Safari **Settings > Extensions** and enable "Userscripts".
+3. **Open Folder:** Click the Userscripts icon in your Safari toolbar and select **"Open Userscripts Directory"**.
+4. **Copy File:** Locate the `youtube-ends.user.js` file inside your `yt-end-time-tracker-safari` folder and move (or copy) it into the directory you just opened.
+5. **Grant Permissions:** Refresh YouTube. Safari may ask for permission to run the script on `youtube.com`. Click **"Always Allow"**.
+
+---
+
+### **Method B: Manual Setup**
+1. **Install Userscripts:** Download the extension from the **[Mac App Store](https://apps.apple.com/app/userscripts/id1463298887)**.
+2. **Enable Extension:** Open Safari **Settings > Extensions** and toggle "Userscripts" on.
 3. **Set Directory:** Click the Userscripts icon in your Safari toolbar and select **"Open Userscripts Directory"**.
 4. **Create Script:** In that folder, create a new file named `youtube-ends.user.js`.
-5. **Paste Code:** Copy the code from the [Script Section](#-the-script-safe-mode) below and paste it into the file.
-6. **Grant Permissions:** Refresh YouTube. Safari may ask for permission to run the script on `youtube.com`. Click **"Always Allow"**.
+5. **Paste Code:** Copy the code from the **[Script Section](#-the-script-safe-mode)** below and paste it into the new file.
+6. **Grant Permissions:** Refresh YouTube and select **"Always Allow"** when prompted by Safari.
 
 ---
 
